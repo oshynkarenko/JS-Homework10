@@ -1,0 +1,104 @@
+body {
+	font-size: 18px;
+	color: #5b1201;
+}
+
+.side-blocks {
+	display: block;
+	width: 20%;
+  	height: 60px;
+  	margin: 30px 30px 0;
+  	font-size: 2em;
+  	text-align: center;
+}
+
+.timer {
+  	border: 2px solid #5b1201;
+  	background-color: #5b1201;
+  	color: #f7e9e6;
+}
+
+.startBtn {
+	border: 2px solid #5b1201;
+  	background-color: #f7e9e6;
+  	text-transform: uppercase;
+  	color: #5b1201;
+}
+
+.best-score {
+	position: relative;
+	top: -185px;
+	left: 75%; 
+	border: 2px solid #5b1201;
+  	background-color: #5b1201;
+  	font-size: 1.25em;
+  	color: #f7e9e6;
+}
+
+.current-score {
+	position: relative;
+	top: -190px;
+	left: 75%; 
+	border: 2px solid #5b1201;
+  	background-color: #f7e9e6;
+  	font-size: 1.25em;
+  	color: #5b1201;
+}
+
+.exercise {
+  	position: relative;
+	top: -160px;
+  	width: 80%;
+	margin: 0 auto;
+  	font-size: 2em;
+  	text-align: center;
+}
+
+.exercise p {
+	margin: 0 auto;
+}
+
+.keyboard {
+	position: relative;
+	top: -180px;
+	width: 700px;
+	height: 300px;
+	margin: 50px auto;
+	border: none;
+}
+
+.row {
+	margin-left: auto;
+	margin-right: auto;
+}
+.keyboard-btn {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	border: 2px solid #5b1201;
+	margin: 3px;
+	padding: 1em;
+	box-sizing: border-box;
+	background-color: #f7e9e6;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 1em;
+	text-align: center;
+}
+
+.hidden	{
+	display: none;
+}
+
+.pressed {
+	background-color: #5b1201;
+	color: #f7e9e6;
+}
+
+.pressed-wrong {
+	background-color: #311711;
+	color: #f7e9e6;
+}
+
+.row:last-child, .row:last-child .keyboard-btn {
+	width: 300px;
+}
